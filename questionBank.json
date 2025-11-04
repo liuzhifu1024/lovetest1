@@ -1,0 +1,2647 @@
+{
+  "questionBankVersion": "V1.0",
+  "selfTestQuestions": [
+    {
+      "questionId": 1,
+      "dimension": "控制欲望",
+      "questionContent": "我经常想知道伴侣在做什么",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 2,
+      "dimension": "控制欲望",
+      "questionContent": "我希望伴侣把大部分空闲时间都花在我身上",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 3,
+      "dimension": "控制欲望",
+      "questionContent": "我不喜欢伴侣和其他异性单独相处",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 4,
+      "dimension": "控制欲望",
+      "questionContent": "我会查看伴侣的手机或社交媒体",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 5,
+      "dimension": "控制欲望",
+      "questionContent": "我希望了解伴侣所有的行程安排",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 6,
+      "dimension": "控制欲望",
+      "questionContent": "如果伴侣没及时回复我的消息,我会感到不安",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 7,
+      "dimension": "控制欲望",
+      "questionContent": "我会限制伴侣与朋友外出的频率",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 8,
+      "dimension": "控制欲望",
+      "questionContent": "我认为伴侣应该把我放在第一位",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 9,
+      "dimension": "控制欲望",
+      "questionContent": "我希望参与伴侣的所有决定",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 10,
+      "dimension": "控制欲望",
+      "questionContent": "我不喜欢伴侣有太多独立的社交圈",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 11,
+      "dimension": "嫉妒强度",
+      "questionContent": "当伴侣和异性说话时,我会感到嫉妒",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 12,
+      "dimension": "嫉妒强度",
+      "questionContent": "我会因为伴侣与异性的互动而感到不快",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 13,
+      "dimension": "嫉妒强度",
+      "questionContent": "看到伴侣和前任的照片或消息会让我不舒服",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 14,
+      "dimension": "嫉妒强度",
+      "questionContent": "我会嫉妒占据伴侣时间的人或事",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 15,
+      "dimension": "嫉妒强度",
+      "questionContent": "当伴侣称赞其他人时,我会感到不快",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 16,
+      "dimension": "嫉妒强度",
+      "questionContent": "我经常想象伴侣可能出轨的场景",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 17,
+      "dimension": "嫉妒强度",
+      "questionContent": "伴侣对别人表现出兴趣会让我感到威胁",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 18,
+      "dimension": "嫉妒强度",
+      "questionContent": "我会因为嫉妒而质问伴侣",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 19,
+      "dimension": "嫉妒强度",
+      "questionContent": "伴侣单独赴约会让我感到不安",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 20,
+      "dimension": "嫉妒强度",
+      "questionContent": "我会把伴侣与别人的关系看作是对我们关系的威胁",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 21,
+      "dimension": "情感依赖",
+      "questionContent": "没有伴侣在身边时,我会感到不完整",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 22,
+      "dimension": "情感依赖",
+      "questionContent": "我的情绪很大程度上取决于伴侣的态度",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 23,
+      "dimension": "情感依赖",
+      "questionContent": "我难以想象没有伴侣的生活",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 24,
+      "dimension": "情感依赖",
+      "questionContent": "我需要经常得到伴侣的关注和肯定",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 25,
+      "dimension": "情感依赖",
+      "questionContent": "独处时我会感到焦虑",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 26,
+      "dimension": "情感依赖",
+      "questionContent": "我很难独立做出重要决定",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 27,
+      "dimension": "情感依赖",
+      "questionContent": "伴侣是我生活的中心",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 28,
+      "dimension": "情感依赖",
+      "questionContent": "失去这段关系会让我崩溃",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 29,
+      "dimension": "情感依赖",
+      "questionContent": "当伴侣忙于工作或学习时,我会感到被冷落",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 30,
+      "dimension": "情感依赖",
+      "questionContent": "我会因为伴侣而放弃自己的兴趣爱好",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 31,
+      "dimension": "关系不安",
+      "questionContent": "我担心伴侣会离开我",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 32,
+      "dimension": "关系不安",
+      "questionContent": "我觉得自己不够好配不上伴侣",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 33,
+      "dimension": "关系不安",
+      "questionContent": "我担心伴侣会找到更好的人",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 34,
+      "dimension": "关系不安",
+      "questionContent": "伴侣的一个小变化就会让我怀疑Ta的感情",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 35,
+      "dimension": "关系不安",
+      "questionContent": "我需要不断确认伴侣是否还爱我",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 36,
+      "dimension": "关系不安",
+      "questionContent": "我害怕被抛弃",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 37,
+      "dimension": "关系不安",
+      "questionContent": "我对这段关系的未来感到不确定",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 38,
+      "dimension": "关系不安",
+      "questionContent": "我担心伴侣对我的爱不如我对Ta的爱深",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 39,
+      "dimension": "关系不安",
+      "questionContent": "伴侣的冷淡会让我陷入恐慌",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 40,
+      "dimension": "关系不安",
+      "questionContent": "我经常担心这段关系会突然结束",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    }
+  ],
+  "loverTestQuestions": [
+    {
+      "questionId": 1,
+      "dimension": "控制欲望",
+      "questionContent": "Ta经常想知道我在做什么",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 2,
+      "dimension": "控制欲望",
+      "questionContent": "Ta希望我把大部分空闲时间都花在Ta身上",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 3,
+      "dimension": "控制欲望",
+      "questionContent": "Ta不喜欢我和其他异性单独相处",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 4,
+      "dimension": "控制欲望",
+      "questionContent": "Ta会查看我的手机或社交媒体",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 5,
+      "dimension": "控制欲望",
+      "questionContent": "Ta希望了解我所有的行程安排",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 6,
+      "dimension": "控制欲望",
+      "questionContent": "如果我没及时回复Ta的消息,Ta会感到不安",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 7,
+      "dimension": "控制欲望",
+      "questionContent": "Ta会限制我与朋友外出的频率",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 8,
+      "dimension": "控制欲望",
+      "questionContent": "Ta认为我应该把Ta放在第一位",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 9,
+      "dimension": "控制欲望",
+      "questionContent": "Ta希望能够参与我的所有决定",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 10,
+      "dimension": "控制欲望",
+      "questionContent": "Ta不喜欢我有太多独立的社交圈",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 11,
+      "dimension": "嫉妒强度",
+      "questionContent": "当我和异性说话时,Ta会感到嫉妒",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 12,
+      "dimension": "嫉妒强度",
+      "questionContent": "Ta担心我会被别人吸引",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 13,
+      "dimension": "嫉妒强度",
+      "questionContent": "看到我和前任的照片或消息会让Ta不舒服",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 14,
+      "dimension": "嫉妒强度",
+      "questionContent": "Ta会嫉妒占据我时间的人或事",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 15,
+      "dimension": "嫉妒强度",
+      "questionContent": "当我称赞其他人时,Ta会感到不快",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 16,
+      "dimension": "嫉妒强度",
+      "questionContent": "Ta经常想象我可能出轨的场景",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 17,
+      "dimension": "嫉妒强度",
+      "questionContent": "我对别人表现出兴趣会让Ta感到威胁",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 18,
+      "dimension": "嫉妒强度",
+      "questionContent": "Ta会因为嫉妒而质问我",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 19,
+      "dimension": "嫉妒强度",
+      "questionContent": "我单独赴约会让Ta感到不安",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 20,
+      "dimension": "嫉妒强度",
+      "questionContent": "Ta会把我与别人的关系看作是对我们关系的威胁",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 21,
+      "dimension": "情感依赖",
+      "questionContent": "没有我在身边时,Ta会感到不完整",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 22,
+      "dimension": "情感依赖",
+      "questionContent": "Ta的情绪很大程度上取决于我的态度",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 23,
+      "dimension": "情感依赖",
+      "questionContent": "Ta难以想象没有我的生活",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 24,
+      "dimension": "情感依赖",
+      "questionContent": "Ta需要经常得到我的关注和肯定",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 25,
+      "dimension": "情感依赖",
+      "questionContent": "当我不在时,Ta会感到焦虑",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 26,
+      "dimension": "情感依赖",
+      "questionContent": "Ta很难独立做出重要决定",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 27,
+      "dimension": "情感依赖",
+      "questionContent": "我是Ta生活的中心",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 28,
+      "dimension": "情感依赖",
+      "questionContent": "失去这段关系会让Ta崩溃",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 29,
+      "dimension": "情感依赖",
+      "questionContent": "当我忙于工作或学习时,Ta会感到被冷落",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 30,
+      "dimension": "情感依赖",
+      "questionContent": "Ta会因为我而放弃自己的兴趣爱好",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 31,
+      "dimension": "关系不安",
+      "questionContent": "Ta担心我会离开Ta",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 32,
+      "dimension": "关系不安",
+      "questionContent": "Ta觉得自己不够好配不上我",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 33,
+      "dimension": "关系不安",
+      "questionContent": "Ta担心我会找到更好的人",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 34,
+      "dimension": "关系不安",
+      "questionContent": "我的一个小变化就会让Ta怀疑我的感情",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 35,
+      "dimension": "关系不安",
+      "questionContent": "Ta需要不断确认我是否还爱Ta",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 36,
+      "dimension": "关系不安",
+      "questionContent": "Ta害怕被抛弃",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 37,
+      "dimension": "关系不安",
+      "questionContent": "Ta对这段关系的未来感到不确定",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 38,
+      "dimension": "关系不安",
+      "questionContent": "Ta担心我对Ta的爱不如Ta对我的爱",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 39,
+      "dimension": "关系不安",
+      "questionContent": "我的冷淡会让Ta陷入恐慌",
+      "optionType": "attitude",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "非常不同意",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "不同意",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "中性",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "同意",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "非常同意",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "questionId": 40,
+      "dimension": "关系不安",
+      "questionContent": "Ta经常担心这段关系会突然结束",
+      "optionType": "frequency",
+      "options": [
+        {
+          "optionId": 1,
+          "optionContent": "从不",
+          "score": 1
+        },
+        {
+          "optionId": 2,
+          "optionContent": "很少",
+          "score": 2
+        },
+        {
+          "optionId": 3,
+          "optionContent": "有时",
+          "score": 3
+        },
+        {
+          "optionId": 4,
+          "optionContent": "经常",
+          "score": 4
+        },
+        {
+          "optionId": 5,
+          "optionContent": "总是",
+          "score": 5
+        }
+      ]
+    }
+  ]
+}

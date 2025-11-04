@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试报告 - 恋爱占有欲指数测试</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/report.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💕</text></svg>">
+</head>
+<body>
+    <div class="report-page">
+        <div class="container">
+            <!-- 报告头部 -->
+            <div class="report-header">
+                <div>
+                    <h1 class="report-title">恋爱占有欲测试报告</h1>
+                    <div class="report-meta">
+                        <span id="reportTime"></span>
+                        <span id="reportType"></span>
+                    </div>
+                </div>
+                <div class="report-actions">
+                    <button class="btn-primary" onclick="exportPDF()">导出PDF</button>
+                    <button class="btn-primary" onclick="exportImage()">导出图片</button>
+                    <button class="btn-secondary" onclick="goToRecords()">返回记录</button>
+                    <button class="btn-secondary" onclick="goToHome()">返回首页</button>
+                </div>
+            </div>
+            
+            <!-- RPI指数总览 -->
+            <div class="report-section">
+                <h2 class="section-title">
+                    <span class="section-icon">📊</span>
+                    RPI指数总览
+                </h2>
+                <div class="rpi-overview">
+                    <div class="rpi-title-with-icon">
+                        <span class="love-icon">💕</span>
+                        <span class="rpi-title-text">恋爱占有欲指数（RPI）</span>
+                    </div>
+                    <div class="rpi-score" id="rpiScore">0</div>
+                    <div class="rpi-grade" id="rpiGrade"></div>
+                    <div class="rpi-description" id="rpiDescription"></div>
+                    <!-- RPI得分位置进度条 -->
+                    <div class="rpi-progress-container">
+                        <div class="rpi-progress-labels">
+                            <span>0</span>
+                            <span>50</span>
+                            <span>100</span>
+                        </div>
+                        <div class="rpi-progress-bar">
+                            <div class="rpi-progress-track">
+                                <div class="rpi-progress-fill" id="rpiProgressFill"></div>
+                                <div class="rpi-progress-marker" id="rpiProgressMarker"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rpi-note" style="margin-top: 15px; font-size: 12px; color: #999;">
+                        基于RPI指数计算方法，参考2025版人群常模
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 维度拆解 -->
+            <div class="report-section">
+                <h2 class="section-title">
+                    <span class="section-icon">🔍</span>
+                    维度拆解
+                </h2>
+                <div class="dimension-grid" id="dimensionGrid">
+                    <!-- 维度信息将动态生成 -->
+                </div>
+            </div>
+            
+            <!-- 可视化分析 -->
+            <div class="report-section">
+                <h2 class="section-title">
+                    <span class="section-icon">📈</span>
+                    可视化分析
+                </h2>
+                <div class="chart-container">
+                    <canvas id="barChart" width="800" height="400"></canvas>
+                </div>
+                <div class="chart-container" style="margin-top: 30px;">
+                    <canvas id="radarChart" width="600" height="600"></canvas>
+                </div>
+            </div>
+            
+            <!-- 专家建议 -->
+            <div class="report-section">
+                <h2 class="section-title">
+                    <span class="section-icon">💡</span>
+                    专家建议
+                </h2>
+                <ul class="suggestion-list" id="suggestionList">
+                    <!-- 建议将动态生成 -->
+                </ul>
+            </div>
+            
+            <!-- 沟通技巧指南 -->
+            <div class="report-section">
+                <h2 class="section-title">
+                    <span class="section-icon">💬</span>
+                    沟通技巧指南
+                </h2>
+                <div id="communicationTips">
+                    <!-- 沟通技巧将动态生成 -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/report.js"></script>
+</body>
+</html>
+

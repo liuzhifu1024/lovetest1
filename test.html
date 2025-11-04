@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>答题页面 - 恋爱占有欲指数测试</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💕</text></svg>">
+</head>
+<body>
+    <div class="test-page">
+        <div class="container">
+            <!-- 进度条 -->
+            <div class="progress-section">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-text">
+                    <span id="progressText">第 1 题 / 共 40 题</span>
+                </div>
+                <div class="dimension-label" id="dimensionLabel">【控制欲望】</div>
+            </div>
+            
+            <!-- 题目区域 -->
+            <div class="question-section">
+                <div class="question-content" id="questionContent">
+                    <!-- 题目内容将动态加载 -->
+                </div>
+                
+                <div class="options-list" id="optionsList">
+                    <!-- 选项将动态加载 -->
+                </div>
+            </div>
+            
+            <!-- 操作按钮 -->
+            <div class="action-section">
+                <button id="prevBtn" class="btn-secondary" disabled>上一题</button>
+                <button id="nextBtn" class="btn-primary">下一题</button>
+            </div>
+            
+            <!-- 答题规则提示 -->
+            <div class="rule-hint">
+                请根据真实情况选择，无对错之分
+            </div>
+        </div>
+    </div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/test.js"></script>
+</body>
+</html>
+

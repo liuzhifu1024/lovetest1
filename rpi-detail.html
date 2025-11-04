@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPI计算方法说明 - 恋爱占有欲指数测试</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .detail-page {
+            min-height: 100vh;
+            background: #f8f9fa;
+            padding: 40px 0;
+        }
+        .detail-content {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .detail-content h2 {
+            color: #E87A90;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .detail-content p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background: #E87A90;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .back-btn:hover {
+            background: #D86A80;
+        }
+    </style>
+</head>
+<body>
+    <div class="detail-page">
+        <div class="container">
+            <div class="detail-content">
+                <h1>RPI计算方法说明</h1>
+                
+                <h2>一、RPI指数概述</h2>
+                <p>RPI（Relationship Possessiveness Index）恋爱占有欲指数，是一个0-100分的标准化评分，用于量化个体在恋爱关系中的占有欲程度。分数越高，代表占有欲越强。</p>
+                
+                <h2>二、四大核心维度</h2>
+                <p>RPI指数基于以下四个核心维度进行计算：</p>
+                <ul style="line-height: 2;">
+                    <li><strong>控制欲望</strong>：对伴侣行为、时间和社交的控制倾向</li>
+                    <li><strong>嫉妒强度</strong>：对伴侣与他人互动时的嫉妒情绪反应</li>
+                    <li><strong>情感依赖</strong>：对伴侣的情感依赖程度和独立性水平</li>
+                    <li><strong>关系不安</strong>：对关系稳定性和伴侣忠诚度的担忧程度</li>
+                </ul>
+                
+                <h2>三、计算步骤</h2>
+                
+                <h3>第一步：原始分计算</h3>
+                <p>每个维度包含10道题目，每题得分1-5分，各维度原始分为该维度下10题得分之和（满分50分，最低10分）。</p>
+                
+                <h3>第二步：标准化转换（z分数）</h3>
+                <p>基于10000+恋爱人群样本的常模数据，将各维度原始分转换为z分数：</p>
+                <p style="background: #F8F9FA; padding: 15px; border-radius: 4px; font-family: monospace;">
+                    z = (X - μ) / σ
+                </p>
+                <p>其中：</p>
+                <ul style="line-height: 2;">
+                    <li>X：用户维度原始分</li>
+                    <li>μ：该维度常模均值</li>
+                    <li>σ：该维度常模标准差</li>
+                </ul>
+                
+                <h3>第三步：等权重合成</h3>
+                <p>将四个维度的z分数取平均值（各维度权重均为0.25），得到合成z分数：</p>
+                <p style="background: #F8F9FA; padding: 15px; border-radius: 4px; font-family: monospace;">
+                    合成z = (z₁ + z₂ + z₃ + z₄) / 4
+                </p>
+                
+                <h3>第四步：百分位数转换</h3>
+                <p>通过标准正态累积分布函数（CDF）将合成z分数转换为0-100分的RPI指数：</p>
+                <p style="background: #F8F9FA; padding: 15px; border-radius: 4px; font-family: monospace;">
+                    RPI = CDF(合成z) × 100
+                </p>
+                <p>其中CDF采用误差函数近似计算，误差小于0.1%。</p>
+                
+                <h2>四、分级标准</h2>
+                <ul style="line-height: 2;">
+                    <li><strong>低占有欲（0-30分）</strong>：在恋爱中松弛有度，尊重伴侣边界</li>
+                    <li><strong>中等占有欲（31-60分）</strong>：保持适度关注，偶尔会有占有欲表现</li>
+                    <li><strong>高占有欲（61-100分）</strong>：表现出较强的占有欲，需要关注关系平衡</li>
+                </ul>
+                
+                <h2>五、常模数据</h2>
+                <p>本测试基于2025版人群常模，包含10000+恋爱人群样本数据，涵盖不同年龄段、恋爱状态，确保计算结果的科学性和代表性。</p>
+                
+                <h2>六、注意事项</h2>
+                <p style="color: #FF6B6B;">本测试结果仅供参考，不构成任何医学或心理诊断。如您有严重的心理困扰，建议咨询专业心理医生。</p>
+                
+                <a href="index.html" class="back-btn">返回首页</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>恋爱占有欲指数计算器</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💕</text></svg>">
+</head>
+<body>
+    <!-- 头部区域 -->
+    <header class="header">
+        <div class="container">
+            <div class="header-title-wrapper">
+                <span class="header-icon">💕</span>
+                <h1 class="site-title">恋爱占有欲指数计算器</h1>
+            </div>
+            <div class="header-right">
+                <div class="minor-warning">⚠️ 18岁以下需监护人陪同</div>
+            </div>
+        </div>
+        <div class="announcement-bar">
+            <div class="container">
+                <span class="announcement-icon">📊</span>
+                <span class="announcement-text">基于RPI指数计算方法，参考2025版人群常模</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主体区域 -->
+    <main class="main-content">
+        <div class="container">
+            <!-- 网站标题区域 -->
+            <section class="site-title-section">
+                <div class="site-subtitle">基于心理学研究的专业测评工具</div>
+                <h1 class="main-site-title">恋爱占有欲指数计算器</h1>
+                <p class="site-description">
+                    专业的恋爱心理评估工具，基于多个经过验证的心理测量量表，帮助您科学地了解自己或恋人的占有欲程度，促进健康和谐的亲密关系发展。
+                </p>
+            </section>
+
+            <!-- 测试按钮区域 -->
+            <section class="test-buttons-section">
+                <button class="test-btn self-test-btn" data-test-type="self">
+                    <span class="btn-icon">👤</span>
+                    <span class="btn-text">给自己测</span>
+                </button>
+                <button class="test-btn lover-test-btn" data-test-type="lover">
+                    <span class="btn-icon">💑</span>
+                    <span class="btn-text">为恋人测</span>
+                </button>
+            </section>
+            
+            <!-- 测评维度 -->
+            <section class="dimensions-section">
+                <h3 class="dimensions-title">4个核心测评维度</h3>
+                <div class="dimensions-list">
+                    <div class="dimension-item">
+                        <span class="dimension-icon">🎯</span>
+                        <span class="dimension-name">控制欲望量表</span>
+                    </div>
+                    <div class="dimension-item">
+                        <span class="dimension-icon">💚</span>
+                        <span class="dimension-name">嫉妒强度量表</span>
+                    </div>
+                    <div class="dimension-item">
+                        <span class="dimension-icon">💝</span>
+                        <span class="dimension-name">情感依赖量表</span>
+                    </div>
+                    <div class="dimension-item">
+                        <span class="dimension-icon">💔</span>
+                        <span class="dimension-name">关系不安全感量表</span>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- 测试特点 -->
+            <section class="features-section">
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">⏱️</div>
+                        <div class="feature-title">5-10分钟完成</div>
+                        <div class="feature-desc">快速高效，科学精准</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">📊</div>
+                        <div class="feature-title">4个核心维度</div>
+                        <div class="feature-desc">全面评估，多维分析</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🔒</div>
+                        <div class="feature-title">隐私保护100%</div>
+                        <div class="feature-desc">本地存储，数据安全</div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">👥</div>
+                        <div class="feature-title">双视角深度分析</div>
+                        <div class="feature-desc">给自己测/为恋人测</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 底部链接 -->
+            <section class="footer-links">
+                <a href="#" class="footer-link" data-page="about">
+                    <span class="link-icon">ℹ️</span>关于我们
+                </a>
+                <a href="#" class="footer-link" data-page="privacy">
+                    <span class="link-icon">🔒</span>隐私政策
+                </a>
+                <a href="#" class="footer-link" data-page="rpi-detail">
+                    <span class="link-icon">📖</span>RPI计算方法说明
+                </a>
+                <a href="#" class="footer-link" data-page="contact">
+                    <span class="link-icon">📞</span>联系客服
+                </a>
+            </section>
+        </div>
+    </main>
+
+    <!-- 授权码验证弹窗 -->
+    <div id="authModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="modal-title">授权码验证</h2>
+            <div class="auth-form">
+                <div class="input-group">
+                    <input type="text" id="authCodeInput" class="auth-input" placeholder="请输入10位授权码" maxlength="10">
+                    <span class="format-hint" title="需10位字母+数字组合">查看格式</span>
+                </div>
+                <button id="verifyBtn" class="btn-primary verify-btn">确认</button>
+                <div class="auth-tips">
+                    <div class="tip-item">✓ 一码一测，每个授权码仅支持一次完整测试</div>
+                    <div class="tip-item">✓ 本地存储，所有数据仅保存在您的设备上</div>
+                    <div class="tip-item">✓ 隐私安全，不会上传任何个人信息</div>
+                </div>
+                <div class="auth-buttons">
+                    <button class="btn-primary get-auth-btn">获取授权码</button>
+                    <button class="btn-secondary business-btn">商务合作</button>
+                </div>
+                <div id="authError" class="error-message"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 商务合作弹窗 -->
+    <div id="businessModal" class="modal">
+        <div class="modal-content business-modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="business-content" id="businessContent">
+                商务合作，请联系客服，微信：renzhi6767
+            </div>
+            <button class="btn-primary business-confirm-btn">确定</button>
+        </div>
+    </div>
+
+    <!-- 测试记录页面 -->
+    <div id="recordsPage" class="page hidden">
+        <div class="container">
+            <h2 class="page-title">我的测试记录</h2>
+            <div class="filter-section">
+                <select id="filterPerspective" class="filter-select">
+                    <option value="">全部视角</option>
+                    <option value="self">给自己测</option>
+                    <option value="lover">为恋人测</option>
+                </select>
+                <select id="filterTime" class="filter-select">
+                    <option value="">全部时间</option>
+                    <option value="7">最近7天</option>
+                    <option value="30">最近30天</option>
+                    <option value="90">最近90天</option>
+                </select>
+                <div class="rpi-range-filter">
+                    <input type="number" id="minRpi" class="rpi-input" placeholder="最低分" min="0" max="100">
+                    <span>-</span>
+                    <input type="number" id="maxRpi" class="rpi-input" placeholder="最高分" min="0" max="100">
+                </div>
+            </div>
+            <div id="recordsList" class="records-list">
+                <!-- 记录列表将动态生成 -->
+            </div>
+            <div id="emptyState" class="empty-state hidden">
+                <p>暂无测试记录，点击开始测试生成报告</p>
+                <button class="btn-primary" onclick="location.reload()">开始测试</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 添加返回首页按钮 -->
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="index.html" style="color: #E87A90; text-decoration: none;">返回首页</a>
+    </div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

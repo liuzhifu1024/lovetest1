@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>知情同意书 - 恋爱占有欲指数测试</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/consent.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💕</text></svg>">
+</head>
+<body>
+    <div class="consent-page">
+        <div class="container">
+            <h1 class="page-title">
+                <span class="page-icon">📄</span>
+                知情同意书
+            </h1>
+            
+            <div class="consent-content">
+                <div class="consent-section">
+                    <h2 class="section-title">
+                        <span class="section-icon">🎯</span>
+                        评估目的
+                    </h2>
+                    <p>本测试旨在帮助您了解自身或恋人在恋爱关系中的占有欲程度，通过科学的RPI指数计算方法，提供客观的评估结果。测试结果仅供参考，不构成任何医学或心理诊断。</p>
+                </div>
+                
+                <div class="consent-section">
+                    <h2 class="section-title">
+                        <span class="section-icon">🔒</span>
+                        隐私保护
+                    </h2>
+                    <p>我们严格遵守《中华人民共和国个人信息保护法》，<span class="highlight">完全匿名</span>，<span class="highlight">本地存储</span>。所有答题数据、计算结果均存储于您的设备本地，不会上传到服务器或第三方平台。</p>
+                </div>
+                
+                <div class="consent-section">
+                    <h2 class="section-title">
+                        <span class="section-icon">✋</span>
+                        自愿参与
+                    </h2>
+                    <p>参与本测试完全基于您的自愿选择。您可以随时暂停或退出测试，已保存的数据可以随时删除。</p>
+                </div>
+                
+                <div class="consent-section">
+                    <h2 class="section-title">
+                        <span class="section-icon">⚠️</span>
+                        非诊断性质
+                    </h2>
+                    <p><span class="highlight">非诊断性质</span>：本测试不构成任何医学或心理诊断，<span class="highlight">RPI指数仅作参考</span>。如您有严重的心理困扰，建议咨询专业心理医生。</p>
+                </div>
+                
+                <div class="consent-section">
+                    <h2 class="section-title">
+                        <span class="section-icon">💾</span>
+                        重要提醒
+                    </h2>
+                    <p>数据存储于本地LocalStorage，清除缓存或更换设备将丢失数据。测试结果基于2025版人群常模数据计算，仅供参考。</p>
+                </div>
+            </div>
+            
+            <div class="consent-confirm">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="consentCheckbox">
+                    <span>我已阅读并同意上述内容</span>
+                </label>
+                <button id="nextBtn" class="btn-primary" disabled>下一步</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/storage.js"></script>
+    <script src="js/utils.js"></script>
+    <script>
+        // 获取URL参数
+        const urlParams = new URLSearchParams(window.location.search);
+        const authCode = urlParams.get('authCode');
+        const testType = urlParams.get('testType');
+        
+        // 如果没有参数，返回首页
+        if (!authCode || !testType) {
+            window.location.href = 'index.html';
+        }
+        
+        // 同意复选框事件
+        const consentCheckbox = document.getElementById('consentCheckbox');
+        const nextBtn = document.getElementById('nextBtn');
+        
+        consentCheckbox.addEventListener('change', function() {
+            nextBtn.disabled = !this.checked;
+            if (this.checked) {
+                nextBtn.style.background = '#E87A90';
+            } else {
+                nextBtn.style.background = '#D4D4D4';
+            }
+        });
+        
+        // 下一步按钮事件
+        nextBtn.addEventListener('click', function() {
+            if (consentCheckbox.checked) {
+                // 显示测试须知
+                showTestNotice();
+            }
+        });
+        
+        function showTestNotice() {
+            const notice = `
+测试须知：
+• 测试耗时：5-10分钟
+• 答题规则：请根据真实情况选择，无对错之分
+• 题目数量：共40题，每题必答
+• 可以中途暂停，下次可继续答题
+            `;
+            
+            if (confirm(notice + '\n\n点击"确定"开始测试')) {
+                window.location.href = `info.html?authCode=${authCode}&testType=${testType}`;
+            }
+        }
+    </script>
+</body>
+</html>
+

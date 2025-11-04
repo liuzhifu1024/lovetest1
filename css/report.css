@@ -1,0 +1,482 @@
+.report-page {
+    min-height: 100vh;
+    background: #f8f9fa;
+    padding: 20px 0;
+}
+
+.report-header {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.report-title {
+    font-size: 20px;
+    color: #333;
+}
+
+.report-meta {
+    font-size: 14px;
+    color: #666;
+}
+
+.report-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.report-section {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.section-title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-icon {
+    font-size: 20px;
+}
+
+.rpi-overview {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.rpi-title-with-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.love-icon {
+    font-size: 24px;
+}
+
+.rpi-title-text {
+    font-size: 18px;
+    color: #666;
+    font-weight: 500;
+}
+
+.rpi-score {
+    font-size: 48px;
+    font-weight: bold;
+    color: #E87A90;
+    margin: 20px 0;
+}
+
+.rpi-progress-container {
+    margin: 30px 0;
+    padding: 0 20px;
+}
+
+.rpi-progress-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 8px;
+}
+
+.rpi-progress-bar {
+    position: relative;
+    height: 30px;
+}
+
+.rpi-progress-track {
+    position: relative;
+    width: 100%;
+    height: 8px;
+    background: #F0F0F0;
+    border-radius: 4px;
+    overflow: visible;
+}
+
+.rpi-progress-fill {
+    height: 100%;
+    background: linear-gradient(to right, #4CAF50 0%, #FF9F43 50%, #E87A90 100%);
+    border-radius: 4px;
+    transition: width 0.5s;
+}
+
+.rpi-progress-marker {
+    position: absolute;
+    top: -6px;
+    width: 20px;
+    height: 20px;
+    background: #E87A90;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transform: translateX(-50%);
+    transition: left 0.5s;
+}
+
+.rpi-grade {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.rpi-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.dimension-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.dimension-item {
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    border: 2px solid #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: all 0.3s;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.dimension-item:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.dimension-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.dimension-name-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dimension-icon {
+    font-size: 24px;
+}
+
+.dimension-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.score-value-text {
+    font-size: 15px;
+    color: #666;
+    font-weight: 600;
+}
+
+.dimension-progress-container {
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dimension-progress-bar-wrapper {
+    width: 80%;
+    min-width: 200px;
+}
+
+.dimension-progress-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.progress-label {
+    color: #666;
+}
+
+.dimension-progress-bar {
+    position: relative;
+    height: 40px;
+    width: 100%;
+}
+
+.dimension-progress-track {
+    position: relative;
+    width: 100%;
+    height: 12px;
+    background: #F0F0F0;
+    border-radius: 6px;
+    overflow: visible;
+}
+
+.dimension-progress-fill {
+    height: 100%;
+    border-radius: 6px;
+    transition: width 0.5s ease-out;
+    opacity: 0.3;
+}
+
+.dimension-progress-marker {
+    position: absolute;
+    top: -10px;
+    width: 32px;
+    height: 32px;
+    border: 3px solid;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transform: translateX(-50%);
+    transition: left 0.5s ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.marker-value {
+    font-size: 11px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    line-height: 1;
+}
+
+.dimension-interpretation {
+    margin-top: 12px;
+    padding: 16px;
+    background: #F8F9FA;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.75;
+    border-left: 3px solid;
+    text-align: left;
+    flex: 1;
+    min-height: 80px;
+}
+
+.dimension-item.control {
+    border-color: #E87A90;
+}
+
+.dimension-item.control .dimension-interpretation {
+    border-left-color: #E87A90;
+}
+
+.dimension-item.jealousy {
+    border-color: #9D80FE;
+}
+
+.dimension-item.jealousy .dimension-interpretation {
+    border-left-color: #9D80FE;
+}
+
+.dimension-item.dependency {
+    border-color: #FF9F43;
+}
+
+.dimension-item.dependency .dimension-interpretation {
+    border-left-color: #FF9F43;
+}
+
+.dimension-item.insecurity {
+    border-color: #4CAF50;
+}
+
+.dimension-item.insecurity .dimension-interpretation {
+    border-left-color: #4CAF50;
+}
+
+.chart-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.chart-placeholder {
+    width: 100%;
+    height: 300px;
+    background: #F8F9FA;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+}
+
+.suggestion-list {
+    list-style: none;
+    padding: 0;
+}
+
+.suggestion-item {
+    padding: 20px;
+    margin-bottom: 15px;
+    background: #F8F9FA;
+    border-radius: 8px;
+    border-left: 3px solid #E87A90;
+}
+
+.suggestion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.suggestion-dimension {
+    font-size: 18px;
+    color: #E87A90;
+}
+
+.suggestion-zscore {
+    font-size: 14px;
+    color: #666;
+    background: #fff;
+    padding: 4px 12px;
+    border-radius: 12px;
+}
+
+.suggestion-content {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.8;
+}
+
+.suggestion-content p {
+    margin-bottom: 10px;
+}
+
+.suggestion-content ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.suggestion-content li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.suggestion-item strong {
+    color: #E87A90;
+}
+
+.loading-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.loading-content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.loading-spinner {
+    font-size: 48px;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@media (max-width: 768px) {
+    .report-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .report-actions {
+        width: 100%;
+    }
+    
+    .report-actions button {
+        flex: 1;
+    }
+    
+    .dimension-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .dimension-item {
+        padding: 18px 15px;
+    }
+    
+    .dimension-icon {
+        font-size: 20px;
+    }
+    
+    .dimension-name {
+        font-size: 16px;
+    }
+    
+    .dimension-progress-bar-wrapper {
+        width: 80%;
+        min-width: 180px;
+    }
+    
+    .dimension-progress-marker {
+        width: 20px;
+        height: 20px;
+        border-width: 2px;
+        top: -6px;
+    }
+    
+    .dimension-interpretation {
+        font-size: 13px;
+        padding: 12px;
+        line-height: 1.6;
+        min-height: auto;
+    }
+    
+    .rpi-score {
+        font-size: 36px;
+    }
+}
+
