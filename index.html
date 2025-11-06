@@ -1,9 +1,41 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+    <script>
+        // 动态设置base标签，根据环境自动选择路径
+        (function() {
+            var base = document.createElement('base');
+            if (window.location.protocol === 'file:') {
+                // 本地文件系统，使用相对路径
+                base.href = './';
+            } else {
+                // 检测当前URL路径和主机名
+                var pathname = window.location.pathname;
+                var hostname = window.location.hostname;
+                
+                // 检测是否是Cloudflare部署（通过自定义域名）
+                var isCloudflare = hostname !== 'liuzhifu1024.github.io' && 
+                                   hostname !== 'localhost' && 
+                                   hostname !== '127.0.0.1';
+                
+                // 如果路径包含 /lovetest1/，使用绝对路径
+                if (pathname.indexOf('/lovetest1/') !== -1 || pathname.startsWith('/lovetest1')) {
+                    // Cloudflare可能需要相对路径来避免SPA重写问题
+                    if (isCloudflare) {
+                        base.href = './';
+                    } else {
+                        base.href = '/lovetest1/';
+                    }
+                } else {
+                    // 本地开发服务器或根目录部署，使用相对路径
+                    base.href = './';
+                }
+            }
+            document.head.insertBefore(base, document.head.firstChild);
+        })();
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="/lovetest1/">
     <title>恋爱占有欲指数计算器</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💕</text></svg>">

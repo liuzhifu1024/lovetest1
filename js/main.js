@@ -204,6 +204,12 @@ async function loadQuestionBank() {
     let questionBank = StorageManager.getQuestionBank();
     
     if (!questionBank) {
+        // 检测file://协议，如果本地存储中没有题库数据，提前提示
+        if (window.location.protocol === 'file:') {
+            alert('检测到使用file://协议打开。\n\n由于浏览器安全限制，无法直接加载题库文件。\n\n请使用HTTP服务器运行网站：\n1. 在项目目录下运行: python -m http.server 8000\n2. 然后访问: http://localhost:8000');
+            return;
+        }
+        
         // 从文件加载题库
         try {
             const response = await fetch('questionBank.json');
@@ -225,12 +231,8 @@ async function loadQuestionBank() {
         } catch (error) {
             console.error('加载题库失败:', error);
             console.error('错误详情:', error.message);
-            // 如果是在本地文件系统打开，提示需要使用HTTP服务器
-            if (window.location.protocol === 'file:') {
-                alert('检测到使用file://协议打开。\n\n请使用HTTP服务器运行网站：\n1. 在项目目录下运行: python -m http.server 8000\n2. 然后访问: http://localhost:8000');
-            } else {
-                alert('加载题库失败，请检查网络连接或刷新页面重试。\n\n错误信息: ' + error.message);
-            }
+            // 这里不应该再检测file://协议，因为已经在前面检测过了
+            alert('加载题库失败，请检查网络连接或刷新页面重试。\n\n错误信息: ' + error.message);
         }
     }
 }
